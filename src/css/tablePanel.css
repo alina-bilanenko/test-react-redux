@@ -1,0 +1,51 @@
+.subTable,
+.subTableVer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.subTableVer {
+    flex-direction: column;
+    flex:  3 1 100px;
+}
+
+.subTable > span {
+    flex:  3 1 100px;
+}
+
+.td-padding {
+    padding-bottom: 20px !important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.left, .right {
+    display: inline-block;
+    width: 100%;
+    margin-right: -100%;
+    vertical-align: center;
+}
+.right {
+    text-align: right;
+}
+
+.loader {
+    text-align: center;
+    color: #868785;
+}
+
+.loaderText {
+    font-size: 24px;
+}
+
+.error {
+    text-align: center;
+    color: #872117;
+}
+
+.errorText {
+    font-size: 24px;
+}

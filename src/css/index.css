@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.filterAll > h3 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.filters {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 5px 10px 0;
+}
+
+.filters div {
+  padding: 5px 20px;
+}
+
+.filters .block:first-child {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.changeHover + .dropdown-menu>li>a:hover {
+  background-color: #fff;
+}
+
+.changeHover + .dropdown-menu>li>a {
+  padding: 0;
+}
+
+.changeHover + .dropdown-menu>li>a>.checkbox:hover {
+  background-color: #f5f5f5;
+}
+
+.changeHover + .dropdown-menu>li>a>.checkbox {
+  margin: 0;
+}
